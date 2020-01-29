@@ -1,7 +1,7 @@
 from unittest.mock import patch
 from unittest import TestCase
 
-from main import quizz
+from .main import quizz
 
 
 class TestQuizz(TestCase):
