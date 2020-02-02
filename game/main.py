@@ -9,17 +9,14 @@ def run_game():
         # rolls a dice between 1 and player1's damage
         damage_dealt = randint(1, player1["damage"])
         player2["health"] -= damage_dealt
-        print(
-            f"Player 2 took {damage_dealt} damage: {player2['health']} health left"
-        )
+        print(f"Player 2 took {damage_dealt} damage: {player2['health']} health left")
         if player2["health"] <= 0:
             print("Player 1 wins")
             break
+              
         damage_dealt = randint(1, player2["damage"])
         player1["health"] -= damage_dealt
-        print(
-            f"Player 1 took {damage_dealt} damage: {player1['health']} health left"
-        )
+        print(f"Player 1 took {damage_dealt} damage: {player1['health']} health left")
         if player1["health"] <= 0:
             print("Player 2 wins")
             break
