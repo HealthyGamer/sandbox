@@ -5,7 +5,6 @@ from sandbox.quizz import run
 
 
 class TestQuizz(TestCase):
-
     @patch('builtins.input', return_value='a')
     def test_correct_answer(self, input):
         self.assertTrue(run())
@@ -14,10 +13,7 @@ class TestQuizz(TestCase):
     def test_wrong_answer(self, input):
         self.assertFalse(run())
 
-def do():
-
-    TestQuiz().run()
 
 if __name__ == '__main__':
 
-    do()
+    TestQuizz().run()
