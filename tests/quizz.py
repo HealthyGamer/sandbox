@@ -1,14 +1,23 @@
 from unittest.mock import patch
 from unittest import TestCase
 
-from .main import quizz
+from sandbox.quizz import run
 
 
 class TestQuizz(TestCase):
+
     @patch('builtins.input', return_value='a')
     def test_correct_answer(self, input):
-        self.assertTrue(quizz())
+        self.assertTrue(run())
 
     @patch('builtins.input', return_value='b')
     def test_wrong_answer(self, input):
-        self.assertFalse(quizz())
+        self.assertFalse(run())
+
+def do():
+
+    TestQuiz().run()
+
+if __name__ == '__main__':
+
+    do()
