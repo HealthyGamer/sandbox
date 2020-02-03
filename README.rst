@@ -1,4 +1,4 @@
-![Python application](https://github.com/HealthyGamer/sandbox/workflows/Python%20application/badge.svg)
+|build-status|
 
 Installing
 ----------
@@ -27,3 +27,5 @@ Links
 -----
 
 - `Workshop <https://healthygamer.readthedocs.io>`_
+
+.. |build-status| image::https://github.com/HealthyGamer/sandbox/workflows/Python%20application/badge.svg
