@@ -1,10 +1,10 @@
 from random import randint
 
-__all__ = ('run',)
-
+__all__ = ('run', )
 
 player1 = {'health': 50, 'damage': 5}
 player2 = {'health': 50, 'damage': 5}
+
 
 def run():
 
@@ -23,8 +23,9 @@ def run():
         print(f'Player 1 took {damage_dealt} damage: {player1["health"]} health left')
 
         if player1['health'] <= 0:
-          print('Player 2 wins')
-          break
+            print('Player 2 wins')
+            break
+
 
 if __name__ == '__main__':
 

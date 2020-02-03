@@ -5,7 +5,6 @@ from sandbox.quizz import run
 
 
 class TestQuizz(TestCase):
-
     @patch('builtins.input', return_value='a')
     def test_correct_answer(self, input):
         self.assertTrue(run())

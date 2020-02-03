@@ -1,6 +1,4 @@
-
-__all__ = ('run',)
-
+__all__ = ('run', )
 
 question = {
     'title': 'When did Charlemagne become king of France?',
@@ -12,6 +10,7 @@ question = {
     },
     'right_answer': 'a'
 }
+
 
 def run():
 
@@ -40,6 +39,7 @@ def run():
 
             print('Wrong answer.')
             return False
+
 
 if __name__ == '__main__':
 
