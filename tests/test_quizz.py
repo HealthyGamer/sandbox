@@ -14,10 +14,7 @@ class TestQuizz(TestCase):
     def test_wrong_answer(self, input):
         self.assertFalse(run())
 
-def do():
-
-    TestQuiz().run()
 
 if __name__ == '__main__':
 
-    do()
+    TestQuizz().run()
