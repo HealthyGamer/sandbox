@@ -2,4 +2,4 @@
 Links
 -----
 
-- `Workshop <https://healthgamer.readthedocs.io>`_
+- `Workshop <https://healthygamer.readthedocs.io>`_
