@@ -1,3 +1,5 @@
+![Python application](https://github.com/HealthyGamer/sandbox/workflows/Python%20application/badge.svg)
+
 Installing
 ----------
 
