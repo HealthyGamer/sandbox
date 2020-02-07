@@ -26,6 +26,6 @@ explicitly to avoid loading unwanted submodules.
 Links
 -----
 
-- `Workshop <https://healthygamer.readthedocs.io>`_
+- `Explanations <https://healthygamer.readthedocs.io>`_
 
 .. |build-status| image::https://github.com/HealthyGamer/sandbox/workflows/Python%20application/badge.svg

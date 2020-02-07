@@ -113,7 +113,7 @@ lines of code, making the whole thing more compact. Use whichever you are more
 comfortable with.
 
 Printing
---------
+^^^^^^^^
 
 Now we need to show how much damage was dealt and how much health is left.
 
@@ -123,8 +123,8 @@ Now we need to show how much damage was dealt and how much health is left.
   message = f'Player 2 took {damage_dealt} damage: {new_health} health left'
   print(message)
 
-Aside from normal strings starting and ending with the same type of quotes (
-single or double), python offers
+Aside from normal strings starting and ending with the same type of quotes
+(single or double), python offers
 `f-string <https://docs.python.org/3/whatsnew/3.6.html#pep-498-formatted-string-literals>`_\s
 for quickly formatting/injecting/interpolating data.
 
