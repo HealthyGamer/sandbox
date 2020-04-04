@@ -167,13 +167,13 @@ def backpack(**stuff):
   keys = stuff.keys()
   for key in keys:
     amount = stuff[key]
-    print('You have ' + str(amount) ' of ' + key)
+    print('You have ' + str(amount) + ' of ' + key)
 
 # Quicker version
 
 def backpack(**stuff):
   for (thing, amount) in stuff.items():
-    print('You have ' + str(amount) ' of ' + thing)
+    print('You have ' + str(amount) + ' of ' + thing)
 
 # And a combination of both
 
