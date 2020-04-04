@@ -179,7 +179,7 @@ def backpack(**stuff):
 
 def somefunc(*args, **kwargs):
   print(args)
-  print(kawrgs)
+  print(kwargs)
 
 # Mention how print also takes multiple arguments!
 
