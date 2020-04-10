@@ -81,6 +81,26 @@ class Item(Named):
     super().describe()
     print('Sells for', self.price)
 
+class Berry(Item):
+  def __init__(self, flavor, *args):
+    super().__init__(*args)
+    self.flavor = flavor
+    
+  def describe(self):
+    super().describe()
+    print('Tastes', self.flavor)
+
+berry = Berry('sour', 10, 'Salac')
+
+berry.describe()
+
+class Move(Named):
+  def __init__(self, power, *args):
+    super().__init__(*args)
+    self.power = power
+
+# Continue - Tweak the "Pokemon" class to accept and hold a list of moves
+    
 class Pokemon(Named):
   def __init__(self, moves, name, attack, defense, health, level = 1, male = None):
     super().__init__(name)
